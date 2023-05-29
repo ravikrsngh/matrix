@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #191813;
+    opacity: 0.85;
+}
+.header_logo img {
+    height: 65px;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    font-family: 'Inter',sans-serif;
+}
+.header_menu a {
+    color: white;  
+    opacity: 0.75; 
+}
+.header_book_now {
+    background-color: #820404;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
